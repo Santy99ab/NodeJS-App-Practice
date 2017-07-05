@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iDentity</title>
+    <link rel="icon" href="images/icon3.png">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#375997;">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">iDentity</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Join iDentity</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div id="base" align="center" class="col-md-offset-2  col-md-8">
+            <img src="images/icon3.png" class="img-rounded" alt="" width="15%" height="auto">
+            <h1 style="padding-bottom: 20px;">Sign up for iDentity!</h1>
+            <div class="row">
+                <div class="col-md-offset-2  col-md-8">
+                    <form class="form-horizontal">
+                        <div class="form-group" id="p_email">
+                            <label class="control-label col-md-offset-1 col-md-2" for="email">E-Mail:</label>
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" id="email" placeholder="example@domain.com">
+                            </div>
+                        </div>
+                        <div class="form-group" id="p_pwd">
+                            <label class="control-label col-md-offset-1 col-md-2" for="pwd">Password:</label>
+                            <div class="col-md-8">
+                                <input type="password" class="form-control" id="pwd" placeholder="Use a safe password (at least 8 characters, only use numbers and words)">
+                            </div>
+                        </div>
+                        <div class="form-group" id="p_username">
+                            <label class="control-label col-md-offset-1 col-md-2" for="username">Username:</label>
+                            <div class="col-md-8">
+                                <input type="" class="form-control" id="username" placeholder="Enter your iDentity username">
+                            </div>
+                        </div>
+                        <div class="form-group" id="p_bday">
+                            <label class="control-label col-md-offset-1 col-md-2" for="bday">Birthday:</label>
+                            <div class="col-md-8">
+                                <input type="" class="form-control" id="bday" placeholder="dd/mm/yyyy">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-offset-1 col-md-2" for="hobbies">Hobbies:</label>
+                            <div class="col-md-8">
+                                <input type="" class="form-control" id="hobbies" placeholder="Art, basketball, football, ballet (separated with commas)">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-offset-1 col-md-2" for="bio">Bio:</label>
+                            <div class="col-md-8">
+                                <textarea class="form-control" rows="3" id="bio" placeholder="Tell us something about you"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-md-8">
+                                <div class="checkbox">
+                                    <label><input type="checkbox"> Remember me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-3 col-md-8">
+                              <button type="button" id="button" class="btn btn-primary btn-block">Sign me up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="functions.js" type="text/javascript"></script>
+
+</body>
+
+</html>

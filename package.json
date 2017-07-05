@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-app-practice",
+  "version": "1.0.0",
+  "description": "A sample NodeJS app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant": "^1.7.x",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x",
+    "password-hash": "1.2.x",
+    "express-validator": "3.2.x",
+    "util": "0.10.3" 
+  },
+  "author": "Santiago Mora Soler",
+  "license": "ISC"
+}

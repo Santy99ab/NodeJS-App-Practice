@@ -1,0 +1,5 @@
+---
+applications:
+ - name: NodeJS-App-Practice
+   host: NodeJS-App-Practice
+   memory: 256M
